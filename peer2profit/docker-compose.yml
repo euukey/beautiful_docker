@@ -1,10 +1,362 @@
-version: '3.8'
+version: '3.2'
 services:
-  per2profit:
-    deploy:
-      mode: replicated
-      replicas: 30
+  Peer2Profit1:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: enwaiax/peer2profit
+    restart: unless-stopped
     environment: 
       - email=jeneuuchan@gmail.com
-    command: ["/app/p2pclient", "-l", "$email"]
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit5:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit6:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit7:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit8:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit9:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit10:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit11:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit12:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit13:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit14:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit15:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit16:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit17:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit18:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit19:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit20:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit21:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit22:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit23:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit24:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit25:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit26:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit27:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit28:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit29:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
+  Peer2Profit30:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: enwaiax/peer2profit
+    restart: unless-stopped
+    environment: 
+      - email=jeneuuchan@gmail.com
+    command: 
+      - "/app/p2pclient"
+      - "-l"
+      - "jeneuuchan@gmail.com"
