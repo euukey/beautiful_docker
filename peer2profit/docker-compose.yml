@@ -6,5 +6,5 @@ services:
       replicas: 3
     image: enwaiax/peer2profit
     environment: 
-      - email=chasing0806@gmail.com
+      - email=jeneuuchan@gmail.com
     command: ["/app/p2pclient", "-l", "$email"]
