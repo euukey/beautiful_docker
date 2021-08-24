@@ -1,14 +1,11 @@
 version: '3.8'
 services:
-  Peer2Profit:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  per2profit:
+    deploy:
+      endpoint_mode: dnsrr
+      mode: replicated
+      replicas: 3
     image: enwaiax/peer2profit
-    restart: unless-stopped
     environment: 
       - email=chasing0806@gmail.com
-    command: 
-      - "/app/p2pclient"
-      - "-l"
-      - "chasing0806@gmail.com"
+    command: ["/app/p2pclient", "-l", "$email"]
