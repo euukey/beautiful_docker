@@ -3,7 +3,7 @@ services:
   per2profit:
     deploy:
       mode: replicated
-      replicas: 3
+      replicas: 30
     image: enwaiax/peer2profit
     environment: 
       - email=jeneuuchan@gmail.com
