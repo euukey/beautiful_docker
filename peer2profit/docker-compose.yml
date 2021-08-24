@@ -2,7 +2,6 @@ version: '3.8'
 services:
   per2profit:
     deploy:
-      endpoint_mode: dnsrr
       mode: replicated
       replicas: 3
     image: enwaiax/peer2profit
